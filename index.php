@@ -84,7 +84,6 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-
             </div>
         </div>
         <div class="row margin-0 padding-0" style="background: whitesmoke; width: 100vw">
@@ -117,9 +116,9 @@
         <div class="row justify-content-center align-items-center">
             <div class="col text-center">
                 <h5>Recursos utilizados</h5>
-                <a href='https://www.freepik.es/vectores/diseno'>Favicon creado por freepik - www.freepik.es</a>
-                <a href='https://www.freepik.es/vectores/banner'>Imagen 1 slider creado por valadzionak_volha - www.freepik.es</a>
-                <a href='https://www.freepik.es/vectores/fondo'>Vector de Fondo creado por starline - www.freepik.es</a>
+                <a href='https://www.freepik.es/vectores/diseno'>Favicon creado por freepik - www.freepik.es</a><br>
+                <a href='https://www.freepik.es/vectores/banner'>Imagen 1 slider creado por valadzionak_volha - www.freepik.es</a><br>
+                <a href='https://www.freepik.es/vectores/fondo'>Vector de Fondo creado por starline - www.freepik.es</a><br>
             </div>
             <div class="col text-center">
                 <h5>
