@@ -21,16 +21,17 @@
 }
 
 html {
+    width: 100vw;
     font-size: 16px;
 }
 
 body {
     background: url("../img/sliderBackground.jpg");
     background-size: cover;
-    overflow-x: hidden;
 }
 
 #carousel {
+    width: 100%;
     max-width: 900px;
 }
 

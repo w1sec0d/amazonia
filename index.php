@@ -20,33 +20,33 @@
 
 <body>
     <div class="container-fluid margin-0 padding-0">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-                <img src="./assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" id="navbar-logo">
-                Amazonía Viviente
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sección 1</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Seccion 2</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre nosotros</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="row w-100 h-100 justify-content-center align-items-center margin-0 padding-0">
-            <div class="row">
+        <div class="row w-100 justify-content-center align-items-center margin-0 padding-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" id="navbar-logo">
+                    Amazonía Viviente
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sección 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Seccion 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre nosotros</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row w-100 h-100 justify-content-center align-items-center">
                 <div id="carousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -86,34 +86,38 @@
                 </div>
             </div>
         </div>
-        <div class="row margin-0 padding-0" style="background: whitesmoke; width: 100vw">
-            <div class="row" style="width: 100vw;">
-                <h1 class="text-center w-100" style="font-weight:bold; margin-top:10px">Este es un titulo llamativo</h1>
-            </div>
-            <div class="row" style="width: 100vw;">
+        <div class="row w-100 justify-content-center align-items-center margin-0 padding-0" style="background: whitesmoke">
+            <div class="row w-100">
                 <div class="col text-center">
+                    <h1 style="font-weight:bold; margin-top:10px;">Esto sería un título llamativo</h1>
+                </div>
+            </div>
+            <div class="row w-100">
+                <div class="col text-center margin-0 padding-0">
                     <h2>Subtitulo 1</h2>
                     <img src="./assets/img/animal1.png" alt="">
                     <p>Esta es una expicación del subtítulo 1 esto ya es relleno esto ya es relleno esto ya es relleno</p>
                 </div>
-                <div class="col text-center">
+                <div class="col text-center margin-0 padding-0">
                     <h2>Otro subtítulo</h2>
                     <img src="./assets/img/deforestacion.png" alt="">
                     <p>Esta es una expicación del subtítulo 2 esto ya es relleno esto ya es relleno esto ya es relleno</p>
                 </div>
-                <div class="col text-center">
+                <div class="col text-center margin-0 padding-0">
                     <h2>Y este otro</h2>
                     <img src="./assets/img/animal2.png" alt="">
                     <p>Esta es una expicación del subtítulo 3 esto ya es relleno esto ya es relleno esto ya es relleno</p>
                 </div>
             </div>
-            <div class="row" style="width: 100vw">
-                <h2 class="text-center w-100" style="font-weight:bold">Aquí iría cualquier cosa que se nos ocurra</h2>
+            <div class="row w-100">
+                <div class="col text-center margin-0 padding-0">
+                    <h1 style="font-weight:bold; margin-top:10px;">Aquí iría cualquier cosa que se nos ocurra</h1>
+                </div>
             </div>
         </div>
     </div>
     <footer>
-        <div class="row justify-content-center align-items-center">
+        <div class="row w-100 justify-content-center align-items-center margin-0">
             <div class="col text-center">
                 <h5>Recursos utilizados</h5>
                 <a href='https://www.freepik.es/vectores/diseno'>Favicon creado por freepik - www.freepik.es</a><br>
