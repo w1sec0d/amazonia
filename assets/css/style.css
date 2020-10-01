@@ -27,6 +27,7 @@ html {
 body {
     background: url("../img/sliderBackground.jpg");
     background-size: cover;
+    overflow-x: hidden;
 }
 
 #carousel {

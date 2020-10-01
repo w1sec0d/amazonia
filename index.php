@@ -87,27 +87,50 @@
 
             </div>
         </div>
-        <div class="row w-100 margin-0 padding-0" style="background: whitesmoke;">
-            <div class="row w-100">
+        <div class="row margin-0 padding-0" style="background: whitesmoke; width: 100vw">
+            <div class="row" style="width: 100vw;">
                 <h1 class="text-center w-100" style="font-weight:bold; margin-top:10px">Este es un titulo llamativo</h1>
             </div>
-            <div class="row w-100">
+            <div class="row" style="width: 100vw;">
                 <div class="col text-center">
-                    <h2>Este es un aspecto del Amazonas</h2>
+                    <h2>Subtitulo 1</h2>
+                    <img src="./assets/img/animal1.png" alt="">
+                    <p>Esta es una expicación del subtítulo 1 esto ya es relleno esto ya es relleno esto ya es relleno</p>
                 </div>
                 <div class="col text-center">
-                    <h2>Este es otro</h2>
+                    <h2>Otro subtítulo</h2>
+                    <img src="./assets/img/deforestacion.png" alt="">
+                    <p>Esta es una expicación del subtítulo 2 esto ya es relleno esto ya es relleno esto ya es relleno</p>
                 </div>
                 <div class="col text-center">
                     <h2>Y este otro</h2>
+                    <img src="./assets/img/animal2.png" alt="">
+                    <p>Esta es una expicación del subtítulo 3 esto ya es relleno esto ya es relleno esto ya es relleno</p>
                 </div>
+            </div>
+            <div class="row" style="width: 100vw">
+                <h2 class="text-center w-100" style="font-weight:bold">Aquí iría cualquier cosa que se nos ocurra</h2>
             </div>
         </div>
     </div>
-    <footer class="">
-        <a href='https://www.freepik.es/vectores/diseno'>Favicon creado por freepik - www.freepik.es</a>
-        <a href='https://www.freepik.es/vectores/banner'>Imagen 1 slider creado por valadzionak_volha - www.freepik.es</a>
-        <a href='https://www.freepik.es/vectores/fondo'>Vector de Fondo creado por starline - www.freepik.es</a>
+    <footer>
+        <div class="row justify-content-center align-items-center">
+            <div class="col text-center">
+                <h5>Recursos utilizados</h5>
+                <a href='https://www.freepik.es/vectores/diseno'>Favicon creado por freepik - www.freepik.es</a>
+                <a href='https://www.freepik.es/vectores/banner'>Imagen 1 slider creado por valadzionak_volha - www.freepik.es</a>
+                <a href='https://www.freepik.es/vectores/fondo'>Vector de Fondo creado por starline - www.freepik.es</a>
+            </div>
+            <div class="col text-center">
+                <h5>
+                    Desarrollado por
+                </h5>
+                <p>Valeria Alonso</p>
+                <p>Alejandro Osorio</p>
+                <p>Carlos Ramírez</p>
+                <p>Programación 2020</p>
+            </div>
+        </div>
     </footer>
 </body>
 
