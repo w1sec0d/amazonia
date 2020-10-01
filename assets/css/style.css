@@ -28,6 +28,7 @@ html {
 body {
     background: url("../img/sliderBackground.jpg");
     background-size: cover;
+    overflow-x: hidden;
 }
 
 #carousel {
@@ -53,6 +54,7 @@ body {
 }
 
 footer {
+    font-size: 0.7rem;
     background-color: rgb(44, 44, 44);
     color: white;
 }
@@ -64,6 +66,10 @@ footer a {
 footer a:hover {
     color: lightgreen;
     text-decoration: none;
+}
+
+#texto-slide2 {
+    font-size: 1.6rem;
 }
 
 

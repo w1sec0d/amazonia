@@ -19,8 +19,8 @@
 </head>
 
 <body>
-    <div class="container-fluid margin-0 padding-0">
-        <div class="row w-100 justify-content-center align-items-center margin-0 padding-0">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
             <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
                 <a class="navbar-brand" href="#">
                     <img src="./assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" id="navbar-logo">
@@ -46,7 +46,7 @@
                     </ul>
                 </div>
             </nav>
-            <div class="row w-100 h-100 justify-content-center align-items-center">
+            <div class="row justify-content-center align-items-center">
                 <div id="carousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -64,7 +64,7 @@
                         <div class="carousel-item">
                             <img class="d-block w-100" src="./assets/img/slider2.png" alt="Second slide">
                             <div class="carousel-caption center" style="background: none; width:80%;height:140px">
-                                <h3 class="texto-blanco">Prueba nuestro juego de la amazonía</h3>
+                                <h3 class="texto-blanco" id="texto-slide2">Prueba nuestro juego de la amazonía</h3>
                                 <button class="btn btn-primary" style="font-weight: bold;">Jugar</button>
                             </div>
                         </div>
@@ -86,38 +86,34 @@
                 </div>
             </div>
         </div>
-        <div class="row w-100 justify-content-center align-items-center margin-0 padding-0" style="background: whitesmoke">
-            <div class="row w-100">
-                <div class="col text-center">
-                    <h1 style="font-weight:bold; margin-top:10px;">Esto sería un título llamativo</h1>
-                </div>
-            </div>
-            <div class="row w-100">
-                <div class="col text-center margin-0 padding-0">
-                    <h2>Subtitulo 1</h2>
-                    <img src="./assets/img/animal1.png" alt="">
-                    <p>Esta es una expicación del subtítulo 1 esto ya es relleno esto ya es relleno esto ya es relleno</p>
-                </div>
-                <div class="col text-center margin-0 padding-0">
-                    <h2>Otro subtítulo</h2>
-                    <img src="./assets/img/deforestacion.png" alt="">
-                    <p>Esta es una expicación del subtítulo 2 esto ya es relleno esto ya es relleno esto ya es relleno</p>
-                </div>
-                <div class="col text-center margin-0 padding-0">
-                    <h2>Y este otro</h2>
-                    <img src="./assets/img/animal2.png" alt="">
-                    <p>Esta es una expicación del subtítulo 3 esto ya es relleno esto ya es relleno esto ya es relleno</p>
-                </div>
-            </div>
-            <div class="row w-100">
-                <div class="col text-center margin-0 padding-0">
-                    <h1 style="font-weight:bold; margin-top:10px;">Aquí iría cualquier cosa que se nos ocurra</h1>
-                </div>
+        <div class="row">
+            <div class="col text-center">
+                <h1 style="font-weight:bold; margin-top:10px;">Esto sería un título llamativo</h1>
             </div>
         </div>
-    </div>
-    <footer>
-        <div class="row w-100 justify-content-center align-items-center margin-0">
+        <div class="row">
+            <div class="col text-center">
+                <h2>Subtitulo 1</h2>
+                <img src="./assets/img/animal1.png" alt="">
+                <p>Esta es una expicación del subtítulo 1 esto ya es relleno esto ya es relleno esto ya es relleno</p>
+            </div>
+            <div class="col text-center">
+                <h2>Otro subtítulo</h2>
+                <img src="./assets/img/deforestacion.png" alt="">
+                <p>Esta es una expicación del subtítulo 2 esto ya es relleno esto ya es relleno esto ya es relleno</p>
+            </div>
+            <div class="col text-center">
+                <h2>Y este otro</h2>
+                <img src="./assets/img/animal2.png" alt="">
+                <p>Esta es una expicación del subtítulo 3 esto ya es relleno esto ya es relleno esto ya es relleno</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <h1 style="font-weight:bold; margin-top:10px;">Aquí iría cualquier cosa que se nos ocurra</h1>
+            </div>
+        </div>
+        <footer class="row align-items-center justidy-content-center">
             <div class="col text-center">
                 <h5>Recursos utilizados</h5>
                 <a href='https://www.freepik.es/vectores/diseno'>Favicon creado por freepik - www.freepik.es</a><br>
@@ -133,8 +129,8 @@
                 <p>Carlos Ramírez</p>
                 <p>Programación 2020</p>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
 
 </html>
