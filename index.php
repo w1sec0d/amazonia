@@ -55,21 +55,21 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="./assets/img/slide1.png" alt="First slide">
+                            <img class="d-block w-100" src="./assets/img/slider1.png" alt="First slide">
                             <div class="carousel-caption padding-0">
                                 <h5>Conoce más acerca de la biodiversidad de la amazonía</h5>
                                 <p>Adéntrate en la aventura de redescubrir lo nuestro</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="./assets/img/slide1.png" alt="Second slide">
+                            <img class="d-block w-100" src="./assets/img/slider2.png" alt="Second slide">
                             <div class="carousel-caption center" style="background: none; width:80%;height:140px">
                                 <h3 class="texto-blanco">Prueba nuestro juego de la amazonía</h3>
                                 <button class="btn btn-primary" style="font-weight: bold;">Jugar</button>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="./assets/img/slide1.png" alt="Third slide">
+                            <img class="d-block w-100" src="./assets/img/slider3.png" alt="Third slide">
                             <div class="carousel-caption" style="background: none;">
                                 <h3 class="texto-blanco">Desliza hacia abajo para conocer más</h3>
                             </div>
