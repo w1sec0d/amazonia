@@ -1,3 +1,12 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+
 /* Clases para quitar relleno y margen */
 
 .margin-0 {
@@ -20,15 +29,14 @@
     text-shadow: 0px 1px 7px black!important;
 }
 
-html {
-    width: 100vw;
-    font-size: 16px;
-}
-
-body {
-    background: url("../img/sliderBackground.jpg");
+#contenedor-slider {
+    background: url("../img/sliderBackground.png");
     background-size: cover;
     overflow-x: hidden;
+}
+
+#canvas {
+    box-shadow: 0px 0px 1px black;
 }
 
 #carousel {
@@ -51,6 +59,18 @@ body {
     background: black;
     border: none;
     height: 5px!important;
+}
+
+#datos1 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background: rgb(207, 228, 207);
+}
+
+#datos2 {
+    margin-bottom: 2vh;
+    background: rgb(231, 219, 219);
 }
 
 footer {
