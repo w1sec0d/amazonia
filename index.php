@@ -65,12 +65,12 @@
                         </div>
                         <div class="carousel-item">
                             <img class="d-block w-100" src="./assets/img/slider2.png" alt="Second slide">
-                            <a href="./view/canvas.php">
-                                <div class="carousel-caption center" style="background: none; width:80%;height:140px">
-                                    <h3 class="texto-blanco" id="texto-slide2">Prueba nuestro juego de la amazonía</h3>
+                            <div class="carousel-caption center" style="background: none; width:80%;height:140px">
+                                <h3 class="texto-blanco" id="texto-slide2">Prueba nuestro juego de la amazonía</h3>
+                                <a href="./view/canvas.php">
                                     <button class="btn btn-primary" style="font-weight: bold;">Jugar</button>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
                         <div class="carousel-item">
                             <img class="d-block w-100" src="./assets/img/slider3.png" alt="Third slide">
@@ -122,7 +122,7 @@
             </div>
             <div class="row">
                 <div class="col text-center">
-                    <h2>Deforestacion</h2>
+                    <h2>Deforestación</h2>
                     <img src="./assets/img/deforestation.png" alt="">
                     <p></p>
                 </div>
@@ -135,6 +135,30 @@
                     <h2>Sobreexplotación</h2>
                     <img src="./assets/img/mining.png" alt="">
                     <p></p>
+                </div>
+            </div>
+        </div>
+        <div id="datos3">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 style="font-weight:bold; margin-top:10px;">Tu puedes contribuir con pequeñas acciones</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <h2>Recicla</h2>
+                    <img src="./assets/img/recycle.png" alt="">
+                    <p>Recicla, reduce y reutiliza lo que consumes</p>
+                </div>
+                <div class="col text-center">
+                    <h2>Sé Eficiente</h2>
+                    <img src="./assets/img/bycicle.png" alt="">
+                    <p>Si puedes evitar los automoviles, el planeta te lo agradecerá</p>
+                </div>
+                <div class="col text-center">
+                    <h2>Respeta la vida</h2>
+                    <img src="./assets/img/monkey.png" alt="">
+                    <p>No compres ni captures animales exóticos</p>
                 </div>
             </div>
         </div>

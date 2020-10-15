@@ -19,38 +19,12 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
-                <a class="navbar-brand" href="#">
-                    <img src="../assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" id="navbar-logo">
-                    Amazonía Viviente
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sección 1</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Seccion 2</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre nosotros</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <div class="row h-100 justify-content-center align-items-center">
+    <div class="container-fluid" style="background:  rgb(207, 228, 207);">
+        <div class="row vh-100 justify-content-center align-items-center">
             <canvas id="canvas" width="1000" height="500"></canvas>
         </div>
     </div>
+    <script src="../assets/js/app.js"></script>
 </body>
 
 </html>
